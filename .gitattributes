@@ -1,0 +1,4 @@
+*.sch linguist-language=Eagle
+*.brd linguist-language=Eagle
+*.ino linguist-language=Arduino
+*.nc linguist-language=G-code
