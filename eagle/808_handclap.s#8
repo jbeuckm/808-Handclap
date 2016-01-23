@@ -14952,7 +14952,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </classes>
 <parts>
 <part name="R103" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
-<part name="R104" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
+<part name="R104" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="R106" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="R105" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
 <part name="Q28" library="transistor" deviceset="*-NPN-" device="TO92-CBE" technology="BC546" value="BC546"/>
@@ -14964,15 +14964,15 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <part name="D68" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
 <part name="C139" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="18n"/>
 <part name="C143" library="TR808clone" deviceset="CPOL-EU" device="E2-5" value="1/50"/>
-<part name="R348" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
+<part name="R348" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="C138" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
-<part name="R349" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
+<part name="R349" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="Q70" library="transistor" deviceset="*-NPN-" device="TO92-CBE" technology="BC546" value="BC546"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R362" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="330K"/>
-<part name="R370" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="47K"/>
+<part name="R370" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="R369" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="330R"/>
 <part name="R363" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="C137" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
@@ -15035,7 +15035,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="R360" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="27K"/>
 <part name="R361" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
-<part name="R351" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
+<part name="R351" library="TR808clone" deviceset="R-EU_" device="0207/7" value="4K7"/>
 <part name="R350" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
 <part name="C140" library="TR808clone" deviceset="C-EU" device="050-024X044" value="2n7"/>
 <part name="D70" library="TR808clone" deviceset="1N4148" device="DO35-7"/>

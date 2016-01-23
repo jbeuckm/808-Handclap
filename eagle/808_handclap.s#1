@@ -14990,7 +14990,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <part name="R332" library="TR808clone" deviceset="R-EU_" device="0207/7" value="27K"/>
 <part name="C127" library="TR808clone" deviceset="C-EU" device="050-025X075" value="1.8n"/>
 <part name="C136" library="TR808clone" deviceset="C-EU" device="050-025X075" value="22n"/>
-<part name="R372" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="39K"/>
+<part name="R372" library="TR808clone" deviceset="R-EU_" device="0207/7" value="39K"/>
 <part name="R382" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R381" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="C146" library="TR808clone" deviceset="C-EU" device="050-025X075" value="18n"/>
