@@ -11291,7 +11291,7 @@ NS Package M08A</description>
 <sheet>
 <description>Hand clap Maracas</description>
 <plain>
-<text x="68.58" y="167.64" size="3.81" layer="94">HANDCLAP </text>
+<text x="68.58" y="160.02" size="3.81" layer="94">HANDCLAP </text>
 </plain>
 <instances>
 <instance part="R103" gate="G$1" x="43.18" y="139.7" rot="MR270"/>
@@ -11458,7 +11458,7 @@ NS Package M08A</description>
 <attribute name="VALUE" x="114.427" y="66.8274" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P-1" gate="1" x="15.24" y="142.24"/>
-<instance part="P+4" gate="1" x="7.62" y="172.72"/>
+<instance part="P+4" gate="1" x="7.62" y="170.18"/>
 <instance part="U1" gate="G$1" x="-5.08" y="157.48"/>
 <instance part="GND4" gate="1" x="7.62" y="142.24"/>
 <instance part="OUTPUT" gate="G$1" x="251.46" y="71.12" rot="R180"/>
@@ -12195,7 +12195,7 @@ NS Package M08A</description>
 <pinref part="U1" gate="G$1" pin="+12V"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="5.08" y1="162.56" x2="7.62" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="162.56" x2="7.62" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="162.56" x2="7.62" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R363" gate="G$1" pin="1"/>

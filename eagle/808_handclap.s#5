@@ -11479,14 +11479,14 @@ NS Package M08A</description>
 <instance part="P+2" gate="1" x="53.34" y="124.46"/>
 <instance part="P+3" gate="1" x="154.94" y="73.66"/>
 <instance part="P-2" gate="1" x="149.86" y="116.84" rot="R180"/>
-<instance part="P-3" gate="1" x="134.62" y="15.24"/>
-<instance part="P-4" gate="1" x="78.74" y="12.7"/>
+<instance part="P-3" gate="1" x="134.62" y="5.08"/>
+<instance part="P-4" gate="1" x="78.74" y="5.08"/>
 <instance part="P-5" gate="1" x="38.1" y="2.54"/>
 <instance part="P-6" gate="1" x="22.86" y="2.54"/>
 <instance part="P-7" gate="1" x="104.14" y="106.68"/>
 <instance part="P-8" gate="1" x="78.74" y="96.52"/>
 <instance part="P-9" gate="1" x="162.56" y="43.18"/>
-<instance part="P+6" gate="1" x="149.86" y="91.44" rot="R180"/>
+<instance part="P+6" gate="1" x="149.86" y="93.98" rot="R180"/>
 <instance part="IC1" gate="A" x="96.52" y="43.18" rot="MR180"/>
 <instance part="IC1" gate="B" x="50.8" y="45.72" rot="MR180"/>
 <instance part="IC1" gate="C" x="50.8" y="22.86" rot="MR180"/>
@@ -11496,7 +11496,7 @@ NS Package M08A</description>
 <instance part="P-10" gate="1" x="33.02" y="78.74"/>
 <instance part="IC2" gate="A" x="147.32" y="127" rot="R180"/>
 <instance part="IC3" gate="A" x="210.82" y="76.2" rot="MR180"/>
-<instance part="P+7" gate="1" x="208.28" y="66.04" rot="R180"/>
+<instance part="P+7" gate="1" x="208.28" y="63.5" rot="R180"/>
 <instance part="P+8" gate="1" x="154.94" y="116.84" rot="R180"/>
 <instance part="P-11" gate="1" x="149.86" y="137.16" rot="R180"/>
 <instance part="P-12" gate="1" x="208.28" y="86.36" rot="R180"/>
@@ -12219,13 +12219,14 @@ NS Package M08A</description>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="V+"/>
-<wire x1="149.86" y1="100.33" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="100.33" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="149.86" y="92.71" size="1.778" layer="95"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="V+"/>
 <pinref part="P+7" gate="1" pin="+12V"/>
+<wire x1="208.28" y1="66.04" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="V+"/>
@@ -12247,14 +12248,14 @@ NS Package M08A</description>
 <pinref part="P-2" gate="1" pin="-12V"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="20.32" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="20.32" x2="134.62" y2="7.62" width="0.1524" layer="91"/>
 <label x="132.08" y="13.97" size="1.778" layer="95"/>
 <pinref part="Q7" gate="G1" pin="E"/>
 <pinref part="P-3" gate="1" pin="-12V"/>
 </segment>
 <segment>
 <pinref part="D70" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="17.78" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="17.78" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
 <label x="77.47" y="11.43" size="1.778" layer="95"/>
 <pinref part="P-4" gate="1" pin="-12V"/>
 </segment>
