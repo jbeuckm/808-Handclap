@@ -11172,7 +11172,6 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <part name="R367" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="330"/>
 <part name="D71" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
 <part name="R365" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="82K"/>
-<part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
@@ -11240,6 +11239,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <part name="P-9" library="supply1" deviceset="-12V" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="IC1" library="linear" deviceset="LM339" device="N"/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="P-10" library="supply1" deviceset="-12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11354,7 +11355,6 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <attribute name="NAME" x="38.1" y="85.5726" size="1.778" layer="95"/>
 </instance>
 <instance part="R365" gate="G$1" x="33.02" y="78.74" rot="MR270"/>
-<instance part="GND30" gate="1" x="2.54" y="93.98" rot="MR0"/>
 <instance part="GND31" gate="1" x="129.54" y="50.8" rot="MR0"/>
 <instance part="GND32" gate="1" x="106.68" y="50.8" rot="MR0"/>
 <instance part="GND33" gate="1" x="78.74" y="71.12" rot="MR0"/>
@@ -11455,6 +11455,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <instance part="IC1" gate="B" x="12.7" y="60.96" rot="MR180"/>
 <instance part="IC1" gate="C" x="12.7" y="38.1" rot="MR180"/>
 <instance part="IC1" gate="D" x="15.24" y="83.82" rot="MR180"/>
+<instance part="IC1" gate="P" x="-27.94" y="83.82"/>
+<instance part="GND1" gate="1" x="-20.32" y="88.9" rot="MR0"/>
+<instance part="P-10" gate="1" x="-27.94" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -11564,12 +11567,6 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="132.08" y1="104.14" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="2.54" y1="99.06" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="91.44" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="99.06" x2="2.54" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND31" gate="1" pin="GND"/>
 <pinref part="R364" gate="G$1" pin="2"/>
 </segment>
@@ -11635,6 +11632,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <pinref part="V4" gate="1" pin="GND"/>
 <wire x1="147.32" y1="180.34" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="180.34" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="P" pin="V+"/>
+<wire x1="-27.94" y1="91.44" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-27.94" y1="93.98" x2="-20.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="93.98" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CP" class="0">
@@ -11760,12 +11764,6 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="45.72" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R370" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="121.92" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="-B8" class="2">
-<segment>
-<wire x1="12.7" y1="73.66" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
-<label x="11.43" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -12003,8 +12001,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="20.32" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="86.36" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="86.36" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="83.82" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="86.36" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C141" gate="G$1" pin="1"/>
@@ -12265,6 +12262,11 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <label x="121.92" y="57.15" size="1.778" layer="95"/>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <pinref part="P-9" gate="1" pin="-12V"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="P" pin="GND"/>
+<pinref part="P-10" gate="1" pin="-12V"/>
+<wire x1="-27.94" y1="73.66" x2="-27.94" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
