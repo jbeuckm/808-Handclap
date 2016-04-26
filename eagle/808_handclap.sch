@@ -11159,7 +11159,7 @@ NS Package M08A</description>
 <part name="R103" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="R104" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="R106" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
-<part name="R105" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
+<part name="R105" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="4K7"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="D69" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
@@ -11185,7 +11185,7 @@ NS Package M08A</description>
 <part name="R342" library="TR808clone" deviceset="R-EU_" device="0207/7" value="15K"/>
 <part name="C129" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
 <part name="C128" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="4.7n"/>
-<part name="R334" library="TR808clone" deviceset="R-EU_" device="0207/7" value="150K"/>
+<part name="R334" library="TR808clone" deviceset="R-EU_" device="0309/10" value="150K"/>
 <part name="R333" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="R332" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="27K"/>
 <part name="C127" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1.8n"/>
