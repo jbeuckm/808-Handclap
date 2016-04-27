@@ -11156,7 +11156,7 @@ NS Package M08A</description>
 </class>
 </classes>
 <parts>
-<part name="R103" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
+<part name="R103" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="R104" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="R106" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="R105" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="4K7"/>
@@ -11207,7 +11207,7 @@ NS Package M08A</description>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R366" library="TR808clone" deviceset="R-EU_" device="0207/7" value="15K"/>
 <part name="R364" library="TR808clone" deviceset="R-EU_" device="0309/10" value="2K2"/>
-<part name="R368" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="470K"/>
+<part name="R368" library="TR808clone" deviceset="R-EU_" device="0207/7" value="470K"/>
 <part name="R371" library="TR808clone" deviceset="R-EU_" device="0207/7" value="15K"/>
 <part name="R367" library="TR808clone" deviceset="R-EU_" device="0207/7" value="330"/>
 <part name="D71" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
