@@ -11174,7 +11174,7 @@ NS Package M08A</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R362" library="TR808clone" deviceset="R-EU_" device="0309/10" value="330K"/>
 <part name="R370" library="TR808clone" deviceset="R-EU_" device="0309/10" value="47K"/>
-<part name="R369" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="330R"/>
+<part name="R369" library="TR808clone" deviceset="R-EU_" device="0207/7" value="330R"/>
 <part name="R363" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="C137" library="TR808clone" deviceset="C-EU" device="075-032X103" value="33n"/>
 <part name="TM3" library="pot" deviceset="TRIM_1234-" device="S64YW" value="10K(B)"/>

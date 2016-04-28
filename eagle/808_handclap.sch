@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11233,7 +11233,7 @@ NS Package M08A</description>
 <part name="R361" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="22K"/>
 <part name="R351" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
 <part name="R350" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
-<part name="C140" library="TR808clone" deviceset="C-EU" device="050-024X044" value="2n7"/>
+<part name="C140" library="TR808clone" deviceset="C-EU" device="050-024X044" value="27n"/>
 <part name="D70" library="TR808clone" deviceset="1N4148" device="DO35-7" value="1N4148DO35-7"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
